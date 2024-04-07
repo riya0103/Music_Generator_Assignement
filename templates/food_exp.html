@@ -1,0 +1,20 @@
+<style>
+    @media (min-width: 768px) {
+        .container {
+            width: 60%;
+        }
+    }
+    @media (min-width: 1024px) {
+        .container {
+            width: 50%;
+        }
+    }
+</style>
+
+<div class="container">
+    <form action="/prediction" method="post">
+        <p><h2>Please enter your income(per week)</h2></p>
+        <p><input type="number" step="1" name="income"></p>
+        <p><input type="submit" value="Enter"></p>
+    </form>
+</div>
